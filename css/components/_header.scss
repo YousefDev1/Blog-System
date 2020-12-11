@@ -1,0 +1,39 @@
+
+.header{
+    background-color: var(--bg-main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 15px 150px 15px 150px;
+    .left{
+        a{
+            color: var(--main-color);
+            text-decoration: none;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+            font-size: 28px;
+        }
+    }
+    .links{
+        margin-left: auto;
+        display: flex;
+        .item{
+            display: block;
+            color: var(--main-color);
+            .item-link{
+                color: var(--main-color);
+                text-decoration: none;
+                padding: 30px;
+                font-size: 18px;
+                transition: 0.3s;
+                &:hover{
+                    color: var(--hover-main-color);
+                    font-weight: 700px;
+                }
+            }
+        }
+    }
+}

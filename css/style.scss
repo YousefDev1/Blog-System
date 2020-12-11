@@ -1,0 +1,28 @@
+@font-face{
+    src: url('../files/Tajawal-Medium.ttf');
+    font-family: 'Tajawal';
+}
+
+
+:root{
+    --font: 'Tajawal';
+    --main-color: #ECECEC;
+    --hover-main-color: #FF00B5;
+    --bg-main-color: #293D61;
+    --bg-second-color: #E2E2E2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@import "./components/header";
+@import "./components/post";
+
+body{
+    background-color: var(--bg-second-color);
+}
+
+

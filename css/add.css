@@ -1,0 +1,151 @@
+@font-face {
+  src: url("../files/Tajawal-Medium.ttf");
+  font-family: 'Tajawal';
+}
+
+:root {
+  --font: 'Tajawal';
+  --main-color: #ECECEC;
+  --hover-main-color: #FF00B5;
+  --bg-main-color: #293D61;
+  --bg-second-color: #E2E2E2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: var(--bg-main-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: sans-serif;
+  padding: 15px 150px 15px 150px;
+}
+
+.header .left a {
+  color: var(--main-color);
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+  font-size: 28px;
+}
+
+.header .links {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .links .item {
+  display: block;
+  color: var(--main-color);
+}
+
+.header .links .item .item-link {
+  color: var(--main-color);
+  text-decoration: none;
+  padding: 30px;
+  font-size: 18px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.header .links .item .item-link:hover {
+  color: var(--hover-main-color);
+  font-weight: 700px;
+}
+
+body {
+  background-color: var(--bg-second-color);
+}
+
+.add-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  margin-top: -80px;
+  padding: 0px 20px 0px 20px;
+}
+
+.add-container .add {
+  background-color: white;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  padding: 10px;
+  min-width: 300px;
+  max-width: 600px;
+  width: 600px;
+}
+
+.add-container .add h1 {
+  text-align: center;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+.add-container .add input[type='text'] {
+  margin-bottom: 20px;
+  font-size: 20px;
+  border: 1px solid #5a5a5a;
+  outline: none;
+  padding: 3px 5px 3px 5px;
+}
+
+.add-container .add textarea {
+  font-size: 17px;
+  border: 1px solid #5a5a5a;
+  outline: none;
+  padding: 3px 5px 3px 5px;
+  resize: none;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+}
+
+.add-container .add .post {
+  background-color: #2C4C87;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.add-container .add .post:hover {
+  background-color: #385DA1;
+}
+/*# sourceMappingURL=add.css.map */
