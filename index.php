@@ -9,9 +9,11 @@
 <body>
     <?php
 
+        //Include files in the page 
         require "conn.php";
         include "./tmbl/header.php";
     
+        //Select posts from database
         $selectposts = mysqli_query($db_conn, "SELECT * FROM posts");
 
         
